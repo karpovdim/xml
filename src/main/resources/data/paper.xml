@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<periodicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.news.com/new"
+             xsi:schemaLocation="http://www.news.com/new paper.xsd">
+
+    <newspaper index="3423-5430" period="daily">
+        <title>New Yorker</title>
+        <volume>48</volume>
+        <colored>true</colored>
+    </newspaper>
+    <newspaper index="3443-5430" period="daily">
+        <title>Sun Music</title>
+        <volume>16</volume>
+        <colored>true</colored>
+    </newspaper>
+    <newspaper index="4323-3230" period="weekly">
+        <title>Harvard news</title>
+        <volume>12</volume>
+        <colored>false</colored>
+    </newspaper>
+    <newspaper index="3523-3420" period="weekly">
+        <title>Baltimore Times</title>
+        <volume>48</volume>
+        <colored>true</colored>
+    </newspaper>
+    <newspaper index="2343-3421" period="weekly">
+        <title>The Times</title>
+        <volume>36</volume>
+        <colored>true</colored>
+    </newspaper>
+    <newspaper index="1232-3430" period="weekly">
+        <title>Kentucky Tribune</title>
+        <volume>48</volume>
+        <colored>true</colored>
+    </newspaper>
+    <newspaper index="2342-4437" period="monthly">
+        <title>Texas</title>
+        <volume>48</volume>
+        <colored>false</colored>
+    </newspaper>
+    <newspaper index="6354-5430" period="daily">
+        <title>News Daily</title>
+        <volume>12</volume>
+        <colored>false</colored>
+    </newspaper>
+    <magazine index="5436-4430">
+        <title>Cosmopolitan</title>
+        <volume>94</volume>
+        <glossy>true</glossy>
+    </magazine>
+    <magazine index="2345-4327">
+        <title>Hollywood Official</title>
+        <volume>86</volume>
+        <glossy>true</glossy>
+    </magazine>
+    <magazine index="6745-3435" period="quarterly">
+        <title>US Literary</title>
+        <volume>128</volume>
+        <glossy>false</glossy>
+    </magazine>
+    <magazine index="0854-3325">
+        <title>Art and Since</title>
+        <volume>94</volume>
+        <glossy>true</glossy>
+    </magazine>
+    <magazine index="2342-3423" period="monthly">
+        <title>National Geographic</title>
+        <volume>140</volume>
+        <glossy>true</glossy>
+    </magazine>
+    <magazine index="3432-5430">
+        <title>US History</title>
+        <volume>92</volume>
+        <glossy>false</glossy>
+    </magazine>
+    <magazine index="2343-1220" period="weekly">
+        <title>Cars</title>
+        <volume>64</volume>
+        <glossy>true</glossy>
+    </magazine>
+    <magazine index="2345-5431" period="monthly">
+        <title>Men's Health</title>
+        <volume>94</volume>
+        <glossy>true</glossy>
+    </magazine>
+</periodicals>

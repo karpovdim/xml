@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<periodicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.news.com/new"
+             xsi:schemaLocation="http://www.news.com/new ">
+  <newspaper index="3423-5432" period="daily">
+    <title>New York Times</title>
+    <volume>48</volume>
+    <colored>true</colored>
+  </newspaper>
+</periodicals>

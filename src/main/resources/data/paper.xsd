@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.news.com/new"
+        xmlns:tns="http://www.news.com/new"
+        elementFormDefault="qualified">
+    <simpleType name="INDEX">
+        <restriction base="ID">
+            <pattern value="\\d{4}-\\d{4}"/>
+        </restriction>
+    </simpleType>
+    <complexType name="Periodical">
+        <sequence>
+            <element name="title" type="string"/>
+            <element name="volume" type="integer"/>
+        </sequence>
+        <attribute name="index" type="tns:INDEX" use="required"/>
+        <attribute name="period">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="daily"/>
+                    <enumeration value="weekly"/>
+                    <enumeration value="monthly"/>
+                    <enumeration value="quarterly"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+    <complexType name="Newspaper">
+        <complexContent>
+            <extension base="tns:Periodical">
+                <element name="colored" type="boolean"/>
+            </extension>
+        </complexContent>
+    </complexType>
+    <complexType name="Magazine">
+        <complexContent>
+            <extension base="tns:Periodical">
+                <element name="glossy" type="boolean"/>
+            </extension>
+        </complexContent>
+    </complexType>
+    <element name="periodical" type="tns:Periodical" abstract="true"/>
+    <element name="newspaper" type="tns:Newspaper" substitutionGroup="tns:periodical"/>
+    <element name="magazine" type="tns:Magazine" substitutionGroup="tns:periodical"/>
+    <element name="periodicals">
+        <complexType>
+            <sequence>
+                <element ref="tns:periodical" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
